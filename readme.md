@@ -6,5 +6,5 @@ How to use:
 ```elixir
 {iex_ping, iex_pong} = PingPong.start
 
-send iex_ping {iex_pong, :pong}
+send iex_ping, {iex_pong, :pong}
 ```
